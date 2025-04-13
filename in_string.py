@@ -1,4 +1,9 @@
 def check_vowels():
+    nombre= input("Ingresar nombre: ")
+    vocales="aeiou"
+    for vocal in vocales:
+        contiene= vocal in nombre.lower()
+        print(f"contiene {vocal}: {Contiene}")
     # Código a implementar utilizando input.
 
 
